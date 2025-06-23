@@ -1,12 +1,62 @@
-# React + Vite
+# React Advice App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays random pieces of advice using the [Advice Slip API](https://api.adviceslip.com/). Focus to learn data fetching, React hooks, conditional rendering, and responsive design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetch a random piece of advice from an API
+- Show a loading spinner while fetching advice
+- Show error messages if the fetch fails
+- Skip the spinner during the initial page load
+- Fully responsive and mobile-friendly layout
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with `useState` and `useEffect`)
+- JavaScript
+- CSS in styling
+- [React Spinners](https://www.davidhu.io/react-spinners/) for the loading animation
+
+## Installation and Setup
+
+1. **Clone the repo**
+
+```bash
+  git clone https://github.com/your-username/react-advice-app.git
+```
+
+2. **Navigate to the project folder**
+
+```bash
+cd react-advice-app
+```
+
+3. **Install dependencies**
+
+```bash
+npm install
+```
+
+4. **Start the development server**
+
+```bash
+npm start
+```
+
+# Screenshots
+
+On load
+
+![onload img](./public/onload-img.PNG)
+
+Loading
+
+![loading img](./public/loading-img.png)
+
+Final output after loading
+
+![final img](./public/final-img.PNG)
+
+## Author
+
+Made by [Brian Njoroge](https://github.com/briannjoroge) with ❤ .
